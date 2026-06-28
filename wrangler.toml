@@ -1,10 +1,11 @@
 name = "ctmr"
 main = "src/index.ts"
-compatibility_date = "2026-06-29"
+compatibility_date = "2026-06-28"
 
 [[ d1_databases ]]
 binding = "DB"
 database_name = "ctmr-db"
 database_id = "26cecd66-f792-45de-bcf7-b8c809d95d3c"
 migrations_dir = "drizzle"
+migrations_pattern = "drizzle/*/migration.sql"
 
